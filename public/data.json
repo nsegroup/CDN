@@ -1,11 +1,62 @@
 {
-    "website_backups": [
-        "https://fumetsu.cc/",
-        "https://fumetsu.cc/"
-    ],
-    "discord_backups": [
-        "https://discord.gg/aFucvYWbvb",
-        "https://discord.gg/"
-    ],
-    "update_url": "https://fumetsu.cc/update.exe"
+    "app_info": {
+        "current_version": "1.0.1",
+        "force_update": false,
+        "is_maintenance": false,
+        "maintenance_message": "Our servers are currently undergoing short maintenance, please try again later."
+    },
+    "announcement": {
+        "show_message": true,
+        "title": "New Version Available!",
+        "content": "The application has been completely revamped, Premium features have been added."
+    },
+    "update_data": {
+        "windows": {
+            "free": {
+                "url": "https://fumetsu.cc/download/free/update.exe",
+                "file_size_mb": 15.4,
+                "hash_md5": "b10a8db164e0754105b7a99be72e3fe5",
+                "changelog": "- General bug fixes.\n- Performance improvements."
+            },
+            "premium": {
+                "url": "https://fumetsu.cc/download/premium/update.exe",
+                "file_size_mb": 18.2,
+                "hash_md5": "c4ca4238a0b923820dcc509a6f75849b",
+                "changelog": "- Exclusive Premium features added.\n- Advanced theme support."
+            }
+        }
+    },
+    "tiers": {
+        "free": {
+            "website_backups": [
+                "https://fumetsu.cc/",
+                "https://fumetsu.cc/"
+            ],
+            "discord_backups": [
+                "https://discord.gg/aFucvYWbvb",
+                "https://discord.gg/aFucvYWbvb"
+            ],
+            "permissions": {
+                "show_ads": true,
+                "download_speed_limit": true,
+                "max_connections": 1
+            }
+        },
+        "premium": {
+            "website_backups": [
+                "https://fumetsu.cc/",
+                "https://fumetsu.cc/"
+            ],
+            "discord_backups": [
+                "https://discord.gg/aFucvYWbvb",
+                "https://discord.gg/aFucvYWbvb"
+            ],
+            "permissions": {
+                "show_ads": false,
+                "download_speed_limit": false,
+                "max_connections": 5,
+                "custom_themes": true
+            }
+        }
+    }
 }
