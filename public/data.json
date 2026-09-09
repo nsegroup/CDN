@@ -15,13 +15,11 @@
             "free": {
                 "url": "https://fumetsu.cc/download/free/update.exe",
                 "file_size_mb": 15.4,
-                "hash_md5": "b10a8db164e0754105b7a99be72e3fe5",
                 "changelog": "- General bug fixes.\n- Performance improvements."
             },
             "premium": {
                 "url": "https://fumetsu.cc/download/premium/update.exe",
                 "file_size_mb": 18.2,
-                "hash_md5": "c4ca4238a0b923820dcc509a6f75849b",
                 "changelog": "- Exclusive Premium features added.\n- Advanced theme support."
             }
         }
